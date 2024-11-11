@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajarbagh Shareef</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <!-- swiper js  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css  -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- ds-nav-section start  -->
+    <nav class="navbar navbar-expand-xl bg-white">
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-4 gap-md-3">
+                    <li class="nav-item">
+                        <a class="nav-link fs-16 lh-137 f-s-400 active" aria-current="page" href="#">মূলপাতা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-16 lh-137 f-s-400 active" aria-current="page" href="#">সিলসিলা</a>
+                    </li>
+                    <li class="nav-item dropdown nav-dropdown">
+                        <a class="nav-link fs-16 lh-137 f-s-500 text-dark-1 " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            কার্যক্রম
+                            <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.88 5.19751L6.68333 9.00084C7.1325 9.45001 7.8675 9.45001 8.31667 9.00084L12.12 5.19751"
+                                    stroke="#1B2622" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">সারাদেশে মসজিদ-মাদ্রাসা নির্মান</a></li>
+                            <li><a class="dropdown-item" href="#">সুন্নত মুবারক প্রচার কার্যক্রম</a></li>
+                            <li><a class="dropdown-item" href="#">আইনি কার্যক্রম</a></li>
+                            <li><a class="dropdown-item" href="#">বিশেষ দিবস পালন</a></li>
+                            <li><a class="dropdown-item" href="#">সামাজিক কার্যক্রম</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-16 lh-137 f-s-400 active" aria-current="page" href="#">মসজিদ-মাদরাসা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-16 lh-137 f-s-400 active" aria-current="page" href="#">প্রকাশনা</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-16 lh-137 f-s-400 active" aria-current="page" href="#">ব্লগ</a>
+                    </li>
+
+                </ul>
+                <div class=" nav-btns-small d-flex align-items-center gap-4 d-lg-none">
+                    <a class="trans-btn" href="">ডোনেশন</a>
+                    <a class="green-btn" href="">সাইন ইন</a>
+                    <a href="">
+                        <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.78833 9.15796H4.52834C5.60834 9.15796 6.45833 10.088 6.36833 11.158L5.53833 21.118C5.39833 22.748 6.68832 24.1479 8.32832 24.1479H18.9783C20.4183 24.1479 21.6783 22.968 21.7883 21.538L22.3283 14.038C22.4483 12.378 21.1883 11.028 19.5183 11.028H6.60834"
+                                stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M17.0383 29.158C17.7287 29.158 18.2883 28.5983 18.2883 27.908C18.2883 27.2176 17.7287 26.658 17.0383 26.658C16.348 26.658 15.7883 27.2176 15.7883 27.908C15.7883 28.5983 16.348 29.158 17.0383 29.158Z"
+                                stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M9.03833 29.158C9.72869 29.158 10.2883 28.5983 10.2883 27.908C10.2883 27.2176 9.72869 26.658 9.03833 26.658C8.34797 26.658 7.78833 27.2176 7.78833 27.908C7.78833 28.5983 8.34797 29.158 9.03833 29.158Z"
+                                stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M9.78833 15.158H21.7883" stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <circle cx="23.7593" cy="8.98383" r="8.82587" fill="#F07F75" />
+                            <path
+                                d="M23.3138 3.7701H25.3138V14.5061H23.0738V6.2021L21.1218 7.2741L20.1778 5.4341L23.3138 3.7701Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="nav-btns d-flex align-items-center gap-3">
+                <a class="trans-btn" href="">ডোনেশন</a>
+                <a class="green-btn" href="">সাইন ইন</a>
+                <a href="">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.78833 9.15796H4.52834C5.60834 9.15796 6.45833 10.088 6.36833 11.158L5.53833 21.118C5.39833 22.748 6.68832 24.1479 8.32832 24.1479H18.9783C20.4183 24.1479 21.6783 22.968 21.7883 21.538L22.3283 14.038C22.4483 12.378 21.1883 11.028 19.5183 11.028H6.60834"
+                            stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M17.0383 29.158C17.7287 29.158 18.2883 28.5983 18.2883 27.908C18.2883 27.2176 17.7287 26.658 17.0383 26.658C16.348 26.658 15.7883 27.2176 15.7883 27.908C15.7883 28.5983 16.348 29.158 17.0383 29.158Z"
+                            stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M9.03833 29.158C9.72869 29.158 10.2883 28.5983 10.2883 27.908C10.2883 27.2176 9.72869 26.658 9.03833 26.658C8.34797 26.658 7.78833 27.2176 7.78833 27.908C7.78833 28.5983 8.34797 29.158 9.03833 29.158Z"
+                            stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M9.78833 15.158H21.7883" stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="23.7593" cy="8.98383" r="8.82587" fill="#F07F75" />
+                        <path
+                            d="M23.3138 3.7701H25.3138V14.5061H23.0738V6.2021L21.1218 7.2741L20.1778 5.4341L23.3138 3.7701Z"
+                            fill="white" />
+                    </svg>
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- ds-nav-section end  -->
+
+    <!-- hero start  -->
+    <section class="hero p-100 bg-primary position-relative">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="row align-items-center">
+                    <div class="hero-left col-lg-8">
+                        <h1 class="green-linear pb-4">রাজারবাগ দরবার শরীফ</h1>
+                        <p class="banner-sub-head fs-22 text-gray f-s-300 lh-145">রাজারবাগ দরবার শরীফ একটি দ্বীনি
+                            প্রতিষ্ঠান, যেখানে মহান আল্লাহ পাক উনার প্রদত্ত দ্বীন ইসলাম, উনার প্রিয়তম হাবীব হুযূর
+                            পাক ছল্লাল্লাহু আলাইহি ওয়া সাল্লাম উনার সুন্নত ও আহলে সুন্নত ওয়াল জামায়াতের বিশুদ্ধ আক্বীদার
+                            শিক্ষা সহ উপকারী ইলম
+                            ইলমে-তাসাউফ শিক্ষা দেওয়া হয়।</p>
+                        <div class="hero-btns d-flex align-items-center">
+                            <a class="green-btn" href="">বিস্তারিত জানুন</a>
+                            <a class="trans-btn" href="">সরাসরি অনুষ্ঠান শুনুন</a>
+
+                        </div>
+                    </div>
+                    <div class="hero-right col-lg-4 d-lg-none d-xl-block d-md-none">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <div class="hero-cards d-flex flex-column mt-3 radius-8">
+                                    <div class="text-center pb-3">
+                                        <img class="hero-card-img pb-3" src="images/banner-img-1.png" alt="">
+                                    </div>
+                                    <h5 class="hero-card-text text-center">সারাবিশ্বে মসজিদ মাদরাসা নির্মাণ</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3">
+                                        <img class="hero-card-img pb-3" src="images/banner-img-2.png" alt="">
+                                    </div>
+                                    <h5 class="hero-card-text text-center">ইলমে তাসাউফ শিক্ষাকেন্দ্র</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-cards d-flex flex-column mt-3 radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="hero-card-img pb-3" src="images/banner-img-3.png" alt="">
+                                    </div>
+                                    <h5 class="hero-card-text text-center">আন্তর্জাতিক চাঁদ দেখা কমিটি</h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="hero-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="hero-card-img pb-3" src="images/banner-img-4.png" alt="">
+                                    </div>
+                                    <h5 class="hero-card-text text-center">ইলমে ফিকহ্ শিক্ষাকেন্দ্র</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- hero end  -->
+
+    <!-- activities  start  -->
+    <section class="activities p-100">
+        <div class="container">
+            <div class="activities-wrapper">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="activities-head text-dark-1">দরবার শরীফের কার্যক্রম</h2>
+                    <div class="d-flex align-items-center gap-4">
+                        <button id="sliderprev1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.0001 19.92L8.48009 13.4C7.71009 12.63 7.71009 11.37 8.48009 10.6L15.0001 4.07996"
+                                    stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+
+                        </button>
+                        <button id="slidernext1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996"
+                                    stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+                <!-- Slider main container -->
+                <div id="slider1" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/banner-img-1.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">সুন্নতী মসজিদ ও মাদরাসা</h5>
+                                </div>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-2.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">আন্তর্জাতিক সুন্নত প্রচার কেন্দ্র</h5>
+                                </div>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-3.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">মহিলা তালিম ও বালিকা মাদরাসা</h5>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-4.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">প্রকাশনা ও
+                                        মিডিয়া</h5>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-5.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">সামাজিক কল্যাণমূলক কার্যক্রম</h5>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-6.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">চাঁদ দেখা কমিটি ও আইনী কার্যক্রম</h5>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="activity-cards d-flex flex-column radius-8">
+                                    <div class="text-center pb-3 ">
+                                        <img class="activity-card-img pb-3" src="images/ac-ima-6.png" alt="">
+                                    </div>
+                                    <h5 class="activity-card-text text-center">চাঁদ দেখা কমিটি ও আইনী কার্যক্রম</h5>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- activities end  -->
+
+    <!-- qawl shareef start  -->
+    <section class="qawl">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="qawl-left">
+                        <div class="qawl-left-head d-flex gap-3 justify-content-md-center">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="7.00001" cy="6.99995" r="6.28571" fill="url(#paint0_linear_71_2129)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_71_2129" x1="0.714294" y1="0.714233" x2="13.9412"
+                                        y2="1.44652" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#42B057" />
+                                        <stop offset="1" stop-color="#189F71" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h5>রাজারবাগ শরীফের হযরত শায়েখ আলাইহিস সালাম উনার</h5>
+                        </div>
+                    </div>
+                    <h2 class="qawl-main-head text-gray-1 text-center text-lg-start text-md-center text-sm-center">
+                        মুবারক
+                        ক্বওল শরীফ</h2>
+                    <div>
+                        <div class="qawl-arrows">
+                            <div class="d-flex align-items-center gap-4">
+                                <button id="sliderprev2">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.0001 19.92L8.48009 13.4C7.71009 12.63 7.71009 11.37 8.48009 10.6L15.0001 4.07996"
+                                            stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                                <button id="slidernext2">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996"
+                                            stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                            <a class="qawl-btn d-inline-block mt-5" href="">সব দেখুন</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="qawl-right">
+                        <section id="slider2" class="splide">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <a href="">
+                                            <div class="qawl-card">
+                                                <div class="qawl-card-img">
+                                                    <img src="images/qawl-img-1.png" alt="">
+                                                </div>
+                                                <div class="q-card-bottom">
+                                                    <h6 class="q-card-mini-head f-s-300 fs-12 lh-112 text-gray">১৯ রবীউল
+                                                        আউওয়াল, ১৪৪৬ </h6>
+                                                    <h4 class="q-card-head text-dark-1 fs-24 f-s-500 lh-130">পবিত্র
+                                                        কুরআন ও
+                                                        হাদীসের পথে চলাই প্রকৃত মুক্তির পথ।</h4>
+                                                    <p class="q-card-text text-gray fs-16 f-s-300 ">সুন্নত মানা
+                                                        শুধুমাত্র
+                                                        একটি
+                                                        ধর্মীয় দায়িত্ব
+                                                        নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                        পথপ্রদর্শক।</p>
+                                                    <div
+                                                        class="qawl-card-details d-flex align-items-center justify-content-end gap-2">
+                                                        <p class="q-card-btn-text text-dark-1 fs-16 f-s-500">বিস্তারিত
+                                                            পড়ুন
+                                                        </p>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                stroke="#189F71" stroke-width="1.5"
+                                                                stroke-miterlimit="10" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                stroke-width="1.5" stroke-miterlimit="10"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="">
+                                            <div class="qawl-card">
+                                                <div class="qawl-card-img">
+                                                    <img src="images/qawl-img-2.png" alt="">
+                                                </div>
+                                                <div class="q-card-bottom">
+                                                    <h6 class="q-card-mini-head f-s-300 fs-12 lh-112 text-gray">১৯ রবীউল
+                                                        আউওয়াল, ১৪৪৬ </h6>
+                                                    <h4 class="q-card-head text-dark-1 fs-24 f-s-500 lh-130">সুন্নত
+                                                        মুবারক
+                                                        পালন করলে, জান্নাতের পথ সুগম হবে।</h4>
+                                                    <p class="q-card-text text-gray fs-16 f-s-300 ">সুন্নত মানা
+                                                        শুধুমাত্র
+                                                        একটি
+                                                        ধর্মীয় দায়িত্ব
+                                                        নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                        পথপ্রদর্শক।</p>
+                                                    <div
+                                                        class="qawl-card-details d-flex align-items-center justify-content-end gap-2">
+                                                        <p class="q-card-btn-text text-dark-1 fs-16 f-s-500">বিস্তারিত
+                                                            পড়ুন
+                                                        </p>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                stroke="#189F71" stroke-width="1.5"
+                                                                stroke-miterlimit="10" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                stroke-width="1.5" stroke-miterlimit="10"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="">
+                                            <div class="qawl-card">
+                                                <div class="qawl-card-img">
+                                                    <img src="images/qawl-img-3.png" alt="">
+                                                </div>
+                                                <div class="q-card-bottom">
+                                                    <h6 class="q-card-mini-head f-s-300 fs-12 lh-112 text-gray">১৯ রবীউল
+                                                        আউওয়াল, ১৪৪৬ </h6>
+                                                    <h4 class="q-card-head text-dark-1 fs-24 f-s-500 lh-130">প্রতিটি
+                                                        ভালো
+                                                        কাজই
+                                                        আল্লাহ পাক উনার সন্তুষ্টি অর্জনের একটি মাধ্যম</h4>
+                                                    <p class="q-card-text text-gray fs-16 f-s-300 ">সুন্নত মানা
+                                                        শুধুমাত্র
+                                                        একটি
+                                                        ধর্মীয় দায়িত্ব
+                                                        নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                        পথপ্রদর্শক।</p>
+                                                    <div
+                                                        class="qawl-card-details d-flex align-items-center justify-content-end gap-2">
+                                                        <p class="q-card-btn-text text-dark-1 fs-16 f-s-500">বিস্তারিত
+                                                            পড়ুন
+                                                        </p>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                stroke="#189F71" stroke-width="1.5"
+                                                                stroke-miterlimit="10" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                stroke-width="1.5" stroke-miterlimit="10"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <a href="">
+                                            <div class="qawl-card">
+                                                <div class="qawl-card-img">
+                                                    <img src="images/qawl-img-1.png" alt="">
+                                                </div>
+                                                <div class="q-card-bottom">
+                                                    <h6 class="q-card-mini-head f-s-300 fs-12 lh-112 text-gray">১৯ রবীউল
+                                                        আউওয়াল, ১৪৪৬ </h6>
+                                                    <h4 class="q-card-head text-dark-1 fs-24 f-s-500 lh-130">পবিত্র
+                                                        কুরআন ও
+                                                        হাদীসের পথে চলাই প্রকৃত
+                                                        মুক্তির পথ। </h4>
+                                                    <p class="q-card-text text-gray fs-16 f-s-300 ">সুন্নত মানা
+                                                        শুধুমাত্র
+                                                        একটি
+                                                        ধর্মীয় দায়িত্ব
+                                                        নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                        পথপ্রদর্শক।</p>
+                                                    <div
+                                                        class="qawl-card-details d-flex align-items-center justify-content-end gap-2">
+                                                        <p class="q-card-btn-text text-dark-1 fs-16 f-s-500">বিস্তারিত
+                                                            পড়ুন
+                                                        </p>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                stroke="#189F71" stroke-width="1.5"
+                                                                stroke-miterlimit="10" stroke-linecap="round"
+                                                                stroke-linejoin="round" />
+                                                            <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                stroke-width="1.5" stroke-miterlimit="10"
+                                                                stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- qawl shareef end  -->
+
+    <!-- organizations start  -->
+    <section class="organizations p-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="organizations-left">
+                        <h2 class="organizations-heading fs-56 font-primary lh-130 text-dark-1">রাজারবাগ শরীফের অন্যান্য
+                            প্রতিষ্ঠান সমূহ</h2>
+                        <p class="organizations-caption fs-18 f-s-400 lh-150 text-gray-1 text-lg-start text-sm-center">
+                            পবিত্র দ্বীন
+                            ইসলামী শিক্ষা,
+                            গবেষণা ও দ্বীন ইসলামী সম্প্রদায়ের উন্নয়নে নিবেদিত আমাদের প্রতিষ্ঠানসমূহ।</p>
+                        <div class="organizations-btn d-inline-flex d-md-none d-lg-flex d-sm-none">
+                            <a class="green-btn f-s-500 fs-20 lh-160" href="">কার্যক্রমে অংশগ্রহন করুন</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="organizations-main-wrapper">
+                        <div class="organizations-right d-flex flex-column gap-3">
+
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            মাদরাসা
+                                            ইয়াতিমখানাহ্ ও লিল্লাহ বোডিং (বালক
+                                            শাখা)</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">এই প্রতিষ্ঠানটি
+                                            ছাত্রদের শিক্ষা ও পরিচর্যার জন্য
+                                            নিবেদিত।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            মাদরাসা
+                                            ইয়াতিমখানাহ্ ও লিল্লাহ বোডিং (বালিকা শাখা)</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">এই প্রতিষ্ঠানটি
+                                            ছাত্রীদের (আলাদা পর্দার সাথে) শিক্ষা ও পরিচর্যার জন্য নিবেদিত।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-2.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            গবেষণাকেন্দ্র</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">ইসলামিক গবেষণার
+                                            উন্নয়ন
+                                            ও প্রসারের জন্য প্রতিষ্ঠানটি গুরুত্বপূর্ণ কাজ করে।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-3.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">বাইতুল হিকমাহ</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">একটি জ্ঞান ও
+                                            শিক্ষার
+                                            কেন্দ্র, যা ইসলামী মূল্যবোধ প্রচারে কাজ করে।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-4.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">আন্তর্জাতিক সুন্নত
+                                            মুবারক
+                                            প্রচার
+                                            কেন্দ্র</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">হুযূর পাক
+                                            ছল্লাল্লাহু
+                                            আলাইহি ওয়া সাল্লাম উনার সুন্নত মুবারক উনার প্রচার ও প্রসারে নিয়োজিত</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            মাদরাসা
+                                            ইয়াতিমখানাহ্ ও লিল্লাহ বোডিং (বালক
+                                            শাখা)</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">এই প্রতিষ্ঠানটি
+                                            ছাত্রদের শিক্ষা ও পরিচর্যার জন্য
+                                            নিবেদিত।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            মাদরাসা
+                                            ইয়াতিমখানাহ্ ও লিল্লাহ বোডিং (বালিকা শাখা)</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">এই প্রতিষ্ঠানটি
+                                            ছাত্রীদের (আলাদা পর্দার সাথে) শিক্ষা ও পরিচর্যার জন্য নিবেদিত।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-2.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">মুহম্মদীয়া জামিয়া শরীফ
+                                            গবেষণাকেন্দ্র</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">ইসলামিক গবেষণার
+                                            উন্নয়ন
+                                            ও প্রসারের জন্য প্রতিষ্ঠানটি গুরুত্বপূর্ণ কাজ করে।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-3.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">বাইতুল হিকমাহ</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">একটি জ্ঞান ও
+                                            শিক্ষার
+                                            কেন্দ্র, যা ইসলামী মূল্যবোধ প্রচারে কাজ করে।</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="organizations-wrap d-flex align-items-center">
+                                    <div class="organizations-logo">
+                                        <img src="images/organization-logo-4.png" alt="">
+                                    </div>
+                                    <div class="organizations-details">
+                                        <h6 class="organizations-name fs-18 f-s-500 text-white">আন্তর্জাতিক সুন্নত
+                                            মুবারক
+                                            প্রচার
+                                            কেন্দ্র</h6>
+                                        <p class="organizations-slogan fs-14 f-s-400 lh-157 text-gray-4">হুযূর পাক
+                                            ছল্লাল্লাহু
+                                            আলাইহি ওয়া সাল্লাম উনার সুন্নত মুবারক উনার প্রচার ও প্রসারে নিয়োজিত</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="organizations-btn d-inline-flex d-lg-none d-md-flex d-sm-flex mt-3 ">
+                        <a class="green-btn f-s-500 fs-20 lh-160 w-100 text-md-center text-sm-center" href="">কার্যক্রমে
+                            অংশগ্রহন
+                            করুন</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- silsila start  -->
+    <section class="silsila p-100">
+        <div class="container">
+            <div class="silsila-wrapper">
+                <div class="row gap-lg-0 gap-md-3 gap-sm-3">
+                    <div class="col-lg-6">
+                        <div class="silsila-left-wrapper">
+                            <div class="silsila-left-img">
+                                <img src="images/silsila-image.png" alt="#">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="silsila-right">
+                            <h2 class="silsila-head text-lg-start text-md-center text-sm-center">রাজারবাগ শরীফ সিলসিলা
+                            </h2>
+                            <p class="silsila-sub-text text-lg-start text-md-center text-gray fs-20 f-s-300 ">রাজারবাগ
+                                শরীফ সিলসিলা
+                                ইসলামের প্রকৃত
+                                আহলে
+                                সুন্নত ওয়াল জামায়াত উনাদের বিশুদ্ধ আক্বীদার উপর প্রতিষ্ঠিত একটি ধারাবাহিকতা। এই সিলসিলা
+                                প্রজন্মের পর প্রজন্ম ধরে ইসলামের প্রকৃত শিক্ষা, আদর্শ এবং পবিত্র সুন্নতকে ধারাবাহিকভাবে
+                                পালন
+                                করে আসছে।
+
+                                রাজারবাগ শরীফ সিলসিলার পবিত্র পূর্বপুরুষগণ ইসলামের প্রকৃত পথে জীবনযাপন করতেন এবং উনারা
+                                ছিলেন
+                                মহান ওলিয়াল্লাহ। উনারা পবিত্র সুন্নত পালন ও তার প্রচারে ছিলেন অগ্রগামী। রাজারবাগ দরবার
+                                শরীফের বর্তমান পীর সাহেব হুজুর উনার দাদা এবং প্রপিতামহ উনাদের সুমহান শিক্ষার </p>
+                            <div class="silsila-btn text-lg-start text-md-center text-sm-center">
+                                <a class="silsila-btn trans-btn" href="">বিস্তারিত দেখুন</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- silsila end  -->
+
+    <!-- sedule start  -->
+    <section class="sedule">
+        <div class="container">
+            <div class="sedule-wrapper">
+                <div class="row flex-lg-row flex-md-column flex-sm-column flex-column gap-lg-0 gap-md-4">
+                    <div class="col-12 col-lg-6 col-md-12 col-sm-12 ">
+                        <div class="sedule-left-wrapper">
+                            <div class="sedule-left-img">
+                                <img src="images/sedule-mini-img-1.png" alt="#">
+                            </div>
+                            <div class="text-center text-lg-start">
+                                <div class="sedule-date d-inline-flex align-items-center radius-100 gap-1">
+                                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="7" cy="7.5" r="4" fill="white" />
+                                    </svg>
+
+                                    <p class="text-white">আজ পবিত্র ১৯ রবীউল আউওয়াল শরীফ, ১৪৪৬ হিজরী সন</p>
+                                </div>
+                            </div>
+                            <h2 class="sedule-head text-lg-start text-md-center text-sm-center">পবিত্র দ্বীন ইসলামের
+                                ইতিহাসে আজকের এই
+                                দিনে</h2>
+                            <h4 class="sedule-sub-head text-lg-start text-md-center text-sm-center">আজকের দিনে ইসলামের
+                                গৌরবময় ঐতিহাসিক
+                                মুহূর্ত ও রাজারবাগ দরবার
+                                শরীফের বিশেষ আয়োজন।</h4>
+                            <p
+                                class="sedule-details text-dark-2 fs-16 f-s-400 lh-140 text-lg-start text-md-center text-sm-center">
+                                আজ
+                                পবিত্র ৯০ দিন ব্যাপী মাহফিলের
+                                ৭০তম দিন।
+                                মাহফিলে পবিত্র কুরআন
+                                শরীফ তিলাওয়াত, দরূদ শরীফ
+                                পাঠ, এবং বিশেষ দোয়ার আয়োজন করা হয়েছে।</p>
+                            <div
+                                class="sedule-bottom d-flex align-items-center justify-content-center justify-content-lg-start justify-content-md-center justify-content-sm-center">
+                                <div class="sedule-btns d-flex align-items-center gap-3">
+                                    <a class="green-btn" href="">বিস্তারিত দেখুন</a>
+                                    <a class="trans-btn" href="">মাহফিল সূচী</a>
+                                </div>
+                                <div class="d-flex align-items-center gap-4">
+                                    <button id="sliderprev3">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.0001 19.92L8.48009 13.4C7.71009 12.63 7.71009 11.37 8.48009 10.6L15.0001 4.07996"
+                                                stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </button>
+                                    <button id="slidernext3">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996"
+                                                stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                        <div class="sedule-right-wrapper d-md-flex justify-content-md-center">
+                            <div id="slider3" class="splide" aria-label="Basic Structure Example">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-1.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                গাউছুল
+                                                                আযম
+                                                                বড়পীর
+                                                                সাহেব
+                                                                রহমতুল্লাহি আলাইহি উনার
+                                                                পবিত্র
+                                                                বিছালী শান মুবারক প্রকাশ
+                                                                দিবস। </h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-2.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                ৯০দিন
+                                                                ব্যাপী মাহফিলের আজকে ৭০ তম দিন।</h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-1.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                আজকে
+                                                                কাবা
+                                                                শরীফ বিজয় দিবস।</h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-2.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                গাউছুল
+                                                                আযম
+                                                                বড়পীর
+                                                                সাহেব
+                                                                রহমতুল্লাহি আলাইহি উনার
+                                                                পবিত্র
+                                                                বিছালী শান মুবারক প্রকাশ
+                                                                দিবস। </h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-1.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                গাউছুল
+                                                                আযম
+                                                                বড়পীর
+                                                                সাহেব
+                                                                রহমতুল্লাহি আলাইহি উনার
+                                                                পবিত্র
+                                                                বিছালী শান মুবারক প্রকাশ
+                                                                দিবস। </h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-2.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                ৯০দিন
+                                                                ব্যাপী মাহফিলের আজকে ৭০ তম দিন।</h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-1.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                আজকে
+                                                                কাবা
+                                                                শরীফ বিজয় দিবস।</h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <a href="">
+                                                <div class="sedule-right">
+                                                    <div class="sedule-card d-flex align-items-center">
+                                                        <div class="sedule-card-left">
+                                                            <img src="images/sedule-slider-image-2.png" alt="">
+                                                        </div>
+                                                        <div class="sedule-card-right">
+                                                            <p class="text-gray fs-14 f-s-300 lh-112 pb-2">১৯ রবীউল
+                                                                আউওয়াল,
+                                                                ১৪৪৬ </p>
+                                                            <h6
+                                                                class="sedule-card-slider-head fs-16 f-s-600 lh-125 text-dark-1">
+                                                                গাউছুল
+                                                                আযম
+                                                                বড়পীর
+                                                                সাহেব
+                                                                রহমতুল্লাহি আলাইহি উনার
+                                                                পবিত্র
+                                                                বিছালী শান মুবারক প্রকাশ
+                                                                দিবস। </h6>
+                                                            <p
+                                                                class="sedule-card-slider-subhead text-gray fs-14 f-s-300 lh-112">
+                                                                সুন্নত
+                                                                মানা শুধুমাত্র
+                                                                একটি ধর্মীয় দায়িত্ব নয়, এটি আমাদের দৈনন্দিন জীবনের
+                                                                পথপ্রদর্শক।</p>
+                                                            <div
+                                                                class="qawl-card-details d-flex align-items-center justify-content-end gap-2 align-content-end">
+                                                                <p class="q-card-btn-text text-dark-1 fs-16 f-s-500 ">
+                                                                    বিস্তারিত
+                                                                    পড়ুন
+                                                                </p>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M10.8226 4.44749L15.3751 8.99999L10.8226 13.5525"
+                                                                        stroke="#189F71" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                    <path d="M2.62506 9L15.2476 9" stroke="#189F71"
+                                                                        stroke-width="1.5" stroke-miterlimit="10"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- sedule end  -->
+
+    <!-- publication start  -->
+    <section class="publications p-100">
+        <div class="container">
+            <div class="publication-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="slider-book-img">
+                            <img src="images/ummul-umam.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="publication-right">
+                            <h2 class="text-dark-1">রাজারবাগ দরবার শরীফ হতে প্রকাশিত কিতাবসমূহ</h2>
+                            <p class="publication-details text-gray-1 fs-18 f-s-400">রাজারবাগ দরবার শরীফ থেকে বিভিন্ন
+                                ইসলামী বিষয়ের উপর গবেষণা ও সুন্নাহর আলোকে রচিত অসংখ্য
+                                কিতাব প্রকাশিত হয়েছে। এই কিতাবসমূহ কুরআন, হাদিস, ফিকহ, আক্বীদাহসহ ইসলামের বিভিন্ন
+                                গুরুত্বপূর্ণ বিষয়ে প্রামাণ্য জ্ঞান প্রদান করে। এগুলোর মাধ্যমে মুসলিম উম্মাহ সঠিক পথে
+                                পরিচালিত হতে এবং ইসলামের সুন্নতি শিক্ষার সাথে নিজেদের জীবন সাজাতে সাহায্য পায়।</p>
+                            <div class="publication-bottom d-flex flex-column gap-4">
+                                <div>
+                                    <a class="sedule-btns trans-btn" href="">সব কিতাব দেখুন</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="books-wrapper">
+                <!-- book slider start  -->
+                <!-- slider arrow btns  -->
+                <div class="book-slider-arrows d-flex justify-content-end">
+                    <div class="d-flex align-items-center gap-4">
+                        <button id="sliderprev5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.0001 19.92L8.48009 13.4C7.71009 12.63 7.71009 11.37 8.48009 10.6L15.0001 4.07996"
+                                    stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </button>
+                        <button id="slidernext5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.90991 19.92L15.4299 13.4C16.1999 12.63 16.1999 11.37 15.4299 10.6L8.90991 4.07996"
+                                    stroke="#403F3F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="splide" id="slider5">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-1.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">নছিহতে উম্মুল উমাম
+                                            আলাইহিস
+                                            সালাম</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-2.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">মামদূহী আমপারা</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            বালিকা মাদরাসা</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-3.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">মহামান্বিত দশ দিন ও দশ
+                                            রাত্রি
+                                        </h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-4.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">আদ্ দুরারুল মুখতারাহ্ -
+                                            ১ম
+                                            খন্ড</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+
+                                </a>
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-5.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">স্বচক্ষে দেখা কিছু কথা
+                                        </h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-1.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">নছিহতে উম্মুল উমাম
+                                            আলাইহিস
+                                            সালাম</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+
+                                </a>
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-2.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">মামদূহী আমপারা</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            বালিকা মাদরাসা</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-3.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">মহামান্বিত দশ দিন ও দশ
+                                            রাত্রি
+                                        </h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-4.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">আদ্ দুরারুল মুখতারাহ্ -
+                                            ১ম
+                                            খন্ড</h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                            <li class="splide__slide">
+                                <a href="">
+                                    <div class="books-card-wrap">
+                                        <div class="book-cover">
+                                            <img src="images/book-5.png" alt="">
+                                        </div>
+                                        <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">স্বচক্ষে দেখা কিছু কথা
+                                        </h6>
+                                        <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া
+                                            শরীফ
+                                            গবেষণাকেন্দ্র</p>
+                                        <div class="rating d-flex align-items-center ">
+                                            <div class="rating-stars">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                                        fill="#F5D102" />
+                                                </svg>
+                                            </div>
+                                            <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                                        </div>
+                                        <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                                        <div class="price d-flex align-items-center">
+                                            <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                            <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- book slider end  -->
+
+
+                <!-- <div class="row">
+                    <div class="col-lg-3">
+                        <div class="books-card-wrap">
+                            <div class="book-cover">
+                                <img src="images/book-1.png" alt="">
+                            </div>
+                            <h6 class="book-name fs-16 f-s-500 lh-160 text-dark-1">নছিহতে উম্মুল উমাম আলাইহিস সালাম</h6>
+                            <p class="publication-name fs-14 f-s-300 text-gray-1 lh-140">মুহম্মদীয়া জামীয়া শরীফ
+                                গবেষণাকেন্দ্র</p>
+                            <div class="rating d-flex align-items-center ">
+                                <div class="rating-stars">
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                            fill="#F5D102" />
+                                    </svg>
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                            fill="#F5D102" />
+                                    </svg>
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                            fill="#F5D102" />
+                                    </svg>
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                            fill="#F5D102" />
+                                    </svg>
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 0.5L9.0716 5.33688H14.1574L10.0429 8.32624L11.6145 13.1631L7.5 10.1738L3.3855 13.1631L4.9571 8.32624L0.842604 5.33688H5.9284L7.5 0.5Z"
+                                            fill="#F5D102" />
+                                    </svg>
+                                </div>
+                                <p class="rating-amount fs-16 f-s-400 lh-100 text-gray-1 ">(১০)</p>
+                            </div>
+                            <p class="book-stock f-s-300 fs-12 lh-130 text-gray-1">product in stock</p>
+                            <div class="price d-flex align-items-center">
+                                <h5 class="new-price fs-20 f-s-500 lh-80 green-linear">৳ ৩৫০</h5>
+                                <h5 class="old-price fs-20 f-s-500 lh-80 text-gray-1">৳ ৪০০</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- publication end -->
+
+    <!-- institutes start  -->
+    <section class="institutes">
+        <div class="container">
+            <div class="institute-wrapper">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 order-md-2 order-lg-1 order-sm-2 order-2">
+                        <div class="institute-left-wrapper">
+                            <h2 class="pb-3">সারাদেশে মসজিদ-মাদরাসা</h2>
+                            <p class="text-gray fs-18 f-s-300 lh-150 pb-5">রাজারবাগ দরবার শরীফ কতৃক পরিচালিত সুন্নতী
+                                মসজিদ ও
+                                মাদরাসা সারাদেশে ২০০০ এর অধিক পবিত্র
+                                দ্বীন ইসলামী শিক্ষা ও ইবাদতের পবিত্র কেন্দ্র হিসেবে প্রতিষ্ঠিত হয়েছে। আরো কিছুর
+                                কার্যক্রম চলমান রয়েছে। এ মসজিদ ও মাদরাসাগুলো পবিত্র সুন্নাহ অনুসরণে পরিচালিত হয়, যেখানে
+                                প্রাথমিক থেকে উচ্চতর ইসলামী জ্ঞান অর্জনের সুযোগ রয়েছে। এগুলো ইসলামিক মূল্যবোধ প্রচার ও
+                                প্রসারে গুরুত্বপূর্ণ ভূমিকা পালন করছে।</p>
+                            <div class="institute-btns d-flex align-items-center gap-3">
+                                <a class="green-btn f-s-500" href="">বিস্তারিত দেখুন</a>
+                                <a class="trans-btn" href="">মসজিদ নির্মাণে দান করুন</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-md-1 order-lg-2 order-sm-1 order-1">
+                        <div class="institute-left-wrapper text-end">
+                            <img class="institute-left-img" src="images/bd-map.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- institutes end  -->
+
+    <!-- donation start  -->
+    <section class="donation p-100">
+        <div class="container">
+            <div class="donation-wrapper">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="donation-left-wrapper">
+                            <div class="donation-img mb-4">
+                                <img src="images/coin-images.png" alt="">
+                            </div>
+                            <h2 class="text-dark-1">দান ও হাদিয়া প্রদান</h2>
+                            <p class="fs-18 f-s-300 text-gray lh-140 pt-3">اَلسَّخِىُ حَبِيْبُ الله وَلَوْ كَانَ
+                                فَاسِقًا اَلْبَخِيْلُ عَدُوُّ الله وَلَوْ كَانَ
+                                عَابِدًاদানশীল মহান আল্লাহ পাক উনার বন্ধু যদিও সে ফাসিক হোক না কেন। আর বখীল মহান আল্লাহ
+                                পাক উনার শত্রু যদিও সে আবিদ হোক না কেন। রাজারবাগ দরবার শরীফে ইসলামিক কার্যক্রমে
+                                অংশগ্রহণের অন্যতম মাধ্যম হলো হাদিয়া ও দান। আপনি পবিত্র মাহফিলগুলোর আয়োজনে হাদিয়া প্রদান
+                                করতে পারেন, সারাদেশে মসজিদ ও মাদরাসা নির্মাণ, এবং ইয়াতিম-মিসকিন ছাত্রদের জীবনমান উন্নয়নে
+                                দান করতে পারেন। আপনার প্রতিটি দান সুন্নাহ প্রতিষ্ঠা ও সমাজের সেবা করার মহৎ কাজের অংশ
+                                হবে।</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="donation-form-wrapper">
+                            <div class="form-img">
+                                <img src="images/form.svg" alt="">
+                            </div>
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- donation end  -->
+
+    <!-- cta start  -->
+    <section class="cta p-100">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="cta-top text-center">
+                    <h3 class="cta-subhead fs-32 f-s-700 lh-130 text-dark-1">মহৎ কাজে আপনারাই আমাদের সঙ্গী</h3>
+                    <h2 class="cta-head font-primary green-linear-text">মহান আল্লাহ পাক উনার সন্তুষ্টিই আমাদের
+                        প্রাপ্তি</h2>
+                </div>
+                <div class="row gap-lg-0 gap-md-3">
+                    <div class="col-lg-6">
+                        <div class="cta-card-wrapper">
+                            <h3 class="cta-card-heading fs-32 f-s-700 lh-130 text-white">মহান আল্লাহ পাক উনার সন্তুষ্টির
+                                জন্য মসজিদ-মাদরাসা নির্মাণে দান করুন</h3>
+                            <p class="cta-details fs-18 f-s-400 lh-145 text-gray-1">আপনার দান হতে পারে হাজারো মুসল্লীদের
+                                ইবাদতের ঘর মসজিদ। এবং হাজারো শিক্ষার্থীদের ইলমে
+                                দ্বীন চর্চার জন্য মাদরাসা। সারাদেশে
+                                মসজিদ-মাদরাসা নির্মাণে অংশগ্রহন করতে দান করুন।</p>
+                            <div class="cta-btn d-inline-flex">
+                                <a class="green-btn" href="">দান করুন</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cta-card-wrapper">
+                            <h3 class="cta-card-heading fs-32 f-s-700 lh-130 text-white">নবীজি ﷺ উনার ভালোবাসা অর্জনের
+                                জন্য মাহফিলে সরিক হোন।</h3>
+                            <p class="cta-details fs-18 f-s-400 lh-145 text-gray-1">হুযূর পাক ﷺ উনার মুহব্বত অর্জনের
+                                জন্য প্রতিদিন অনুষ্ঠিত হচ্ছে মাহফিল, যেখান উনার প্রশংসা, দুরুদ পাঠ করা হয় এবং উনার সব
+                                সুন্নত মুবারক শিক্ষা দেওয়া হয়। মহান আল্লাহ পাক উনার সন্তুষ্টির জন্য। যেখানে আপনিও হাদিয়া
+                                দিয়ে অথবা স্বশরীরে এস অংশগ্রহন
+                                করতে পারেন।</p>
+                            <div class="cta-btn d-inline-flex">
+                                <a class="green-btn" href="">শরীক হোন</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start  -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-top pb-3">
+                    <div class="row flex-md-column flex-lg-row gap-md-3 gap-lg-0">
+                        <div class="col-lg-3">
+                            <div class="footer-logo-area">
+                                <img src="images/logo.png" alt="">
+                                <p class="footer-logo-deatils text-white fs-16 f-s-600 lh-140 pt-3">রাজারবাগ দরবার শরীফ
+                                    একটি
+                                    আধ্যাত্মিক প্রতিষ্ঠান ও ইসলামী প্রতিষ্ঠান, যা আন্তর্জাতিক ভাবে
+                                    নবীজি ﷺ উনার সুন্নাহর প্রচার ও সমাজের নৈতিক উন্নয়নের জন্য কাজ করে।</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div
+                                class="footer-links-wrapper d-flex flex-column flex-md-column flex-lg-row flex-sm-column justify-content-around align-items-baseline">
+                                <ul class="footer-links d-flex flex-column gap-1">
+                                    <li class="list-unstyled "><a class="f-links fs-14 f-s-600 lh-157"
+                                            href="">গুরুত্বপূর্ণ
+                                            লিংক</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">হোম</a>
+                                    </li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157"
+                                            href="">আন্তর্জাতিক
+                                            সুন্নত প্রচার কেন্দ্র</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">আইনী
+                                            কার্যক্রম</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">ফতোয়া</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer-links d-flex flex-column gap-1">
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">ডোনেশন</a>
+                                    </li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">আহকামুয্
+                                            যাকাত</a>
+                                    </li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">আহকামুল
+                                            উদহিয়্যা বা কুরবানী</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">আহকামুল
+                                            রমাদ্বানাল মুবারক</a></li>
+                                </ul>
+                                <ul class="footer-links d-flex flex-column gap-1">
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">অন্যান্য
+                                            কার্যক্রম</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">দৈনিক
+                                            আল-ইহসান</a>
+                                    </li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">মাসিক
+                                            আল-বাইয়্যিনাত</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157" href="">মুহম্মদীয়
+                                            জামিয়া শরীফ মাদরাসা</a></li>
+                                    <li class="list-unstyled"><a class="f-links fs-14 f-s-600 lh-157"
+                                            href="">আল-হিকমাহ</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer-links d-flex flex-column gap-1">
+                                    <li class="list-unstyled address-footer"><a class="f-links fs-14 f-s-600 lh-157"
+                                            href="">ঠিকানা: ৫, আউটার সারকুলার রোড, রাজারবাগ, ঢাকা -১২১৭, বাংলাদেশ।</a>
+                                    </li>
+                                    <div class="footer-socials">
+                                        <h6 class="f-links fs-14 f-s-600 lh-157 mt-1">আমাদের ফলো করুন</h6>
+                                        <div class="footer-social-icons mt-1">
+                                            <a href="">
+                                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M12.6484 21.999C18.1043 21.9213 22.5032 17.4744 22.5032 12C22.5032 6.47715 18.026 2 12.5032 2C6.98033 2 2.50317 6.47715 2.50317 12C2.50317 17.4797 6.91064 21.93 12.3739 21.9992C11.8946 21.993 11.4156 21.9527 10.9406 21.8783V14.8904H8.40143V12H10.9406V9.79696C10.9406 7.29043 12.4336 5.90609 14.718 5.90609C15.4678 5.91654 16.2159 5.98193 16.9562 6.10174V8.56261H15.6953C14.4532 8.56261 14.0658 9.33348 14.0658 10.1243V12H16.8393L16.3958 14.8904H14.0658V21.8783C13.596 21.9519 13.1224 21.9921 12.6484 21.999Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                            <a href="">
+                                                <svg width="66" height="26" viewBox="0 0 66 26" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <rect x="0.503174" width="65" height="26"
+                                                        fill="url(#pattern0_167_4011)" />
+                                                    <defs>
+                                                        <pattern id="pattern0_167_4011"
+                                                            patternContentUnits="objectBoundingBox" width="1"
+                                                            height="1">
+                                                            <use xlink:href="#image0_167_4011"
+                                                                transform="scale(0.005 0.0125)" />
+                                                        </pattern>
+                                                        <image id="image0_167_4011" width="200" height="80"
+                                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABQCAYAAABcbTqwAAAIJElEQVR4Ae2dW8gWRRjHvQkk8CKiC8mLvDQKigwK6qICTUm0KKGoiM5HO4IXlTchZARFVkRKBy+yzAi9MIIootAOVJiJ0YFOdD5C5+OvfWT2cx3n2Z33fff1/d5v/wsf++7szmF/M/+Z2Zln5ps2TYcIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiMBoCQDzgdXA68DnwK/An8A3wC5gPXA5cOBoUzrmsQMXAI8D7wHfA//S3rGqDg+wOYrqY+DoOj9t3gNOBL6M0nBny3GsiMIvL5f1Ew9weiGObWUgGWcTz23AAf3E11k/wPnAuxmAB3mkV4FYXF9ZwR12xgALgR8SL9eaQIBDge8ScZhTTwKxAh5ajH+c8JqcXwEOHzbXKRF+AP1fE9EW7vcjEIvWCu6CYcEGzgZ+dt6vTYGsdeIw514F8lRNWLm3PgAOGxbXKREucF8uzRae61cgFrUV4KVtQw/98j9q3q0VgQBzgbp4sgUC3FWT3vLWX8Bv5UXNeWvbTKdMeOF7o6nlsA896+a08XdLHbzEN0icr78DF9WF0cs9YDnwdxxJdN2WQJ6Nwo0vswTSIDR7lzXAPGBG6IadAKwCfokjrFxf0Qu3Tjwb4L1fgVT9aR/mjwEn789RjwyBWBqtZrxu0EwCbgeaKgeLb2CBAGdkxJUrkKerGVX5bd3QUzwuwDHAR5Xnqz93eP466241cZVQ5beJ49xRgMkUiCXV0rii3zQCD1Tet+lnGwJ5uymSnG8Qq6yKyuEnJ6yrm3gAi4HUR71VFEc2+e/UfeBJB/S6UYHoQSCWdMvUngpvaDVtCLuXo6c4YnZF1+amzMgaW5BQwFPB7Yzj9a6B51MBANd7fjrpDuxwQM0bFZAeBVImf01OekOffEvpqYdz3wIpRgcPTsyreFHnCGSZ43ljDgN7BrjHCaN2ACU3/CnzHPBFApT172eM6iVrBGIzxDYz7B0brHXw0l2M1B0CvOx5DgMQ65z7gwjE0p175AjEJvhSR3bhBq5KBQCs9fh10j2YI8SsbBTkoFEBqRHIEmBRmA+J01xeP5MaULBx/qJr8lb5UOL8IXBU8V1za+KeOfUlEJuEc0TtfSjnCGSlk8aVuXlWVIyXOmE8lBtGJ54rRla8D8fTRgWgTiCWJuD4YnDhMyeDzfkl69aU6Q+F1ExmvOPNcqJsCAJJjTbZqKE3WSiBlBk3Gc7ARqfUbB5V+poEYukC5gTjOyf5vFEUwlnAscCn3kPhY3WitWxTIMFwMGXDdhnwoJMmCWRUBS8Vb5hBdvKK5Sk/w3bLEYilAZjZYKBnNmVmxeodT8TfLC0L5LVExNtD2iWQYRekNsIPY+p1NewLwMXWP28jvpwwcgViYfU5KmVDw6tTaWlLIDUVzzkh3RJIKgMmo5tNTiVqukGdStOU7aE7sSj33XsRSBlm8Q3xSGaCbQDi5tJffG5DIEG0nyTSs62MT12sksSYnIFHExnatpOZVs9vQtKPQCzMYGtUZzZiRnuX1MXfkkDM5ik+LF0TlYQEUpcLk/BemF02A7e6AhZnej/XZsnq1uChoMcLpsp4ljShA24Idlqln/L8I5Djf6Bh3qKime2YgTxXTbsEUqUxRr/Dgql3ylI1pLOJ0DVp6LcFKTED50VWq7Z6Lmux1aAtSDDujLGZ3dNJZfrsLIFUaYzhb6ttgfsLk+mtYYWhzbjnmrp/m9ESWUsyN4VmUIGEArigmC22dNhI1hGpeFJugwgkLNVNmc1viuOSQGIiHbsOQ7BLAfvu8I4tKSxtCMTCDWsmZqXi8NwGFMiLiRe1wYp9KgIJxMuBDrrXmJVbKzIzRtKWQOJwc677FYgtDUiIw5zWp+KVQFJUOupWLEqaDux0CtCVMZZxE0gY4EiZstio2Zz4/exaAklR6bBbTStyR4xlDAXijXy5JvgSSJzrHb+uWTC0TyEaQ4F4W/iYIeirzp+NrKUOM2Qs/SSXzob9rFJ+Ze4+rjoLI2JZmTqGAkm9VxtuZ6Xy29biO4FrwVQK2GR3C310b+XihXH6JZCJ4u8JxEYHU8eumKV3DZiNXeq4xvMj9yERAO5N5UTY42qflYsSyAQtTyC2MtLb6+rapmwMu6ukzPBtDmd2k3/db4FAWIdtk422eMk7kqvXJJAJXEmBWPbUtABmUnOql4VhfUzKkNIinTCm9Px3zj1s+2MfjG3+2Yx7qoaayHnga1vQlAI+bgJJvUOT2yCjWBZ22Kzas5uzlsDs6mw/s+nh+eOCMae3pt/CWtyU7s7dH5Kpe1UIqd/WPVjowZZAPDJ7u9dwqjK3yVhvv+Hqcxv2Dl1XuwmMQCBmH3VmHf6ajG+0xq0LN+devzPpOWFXnxm0BbGwQjfW1tMPepi9nf5fSDWDyt/7USBm0bopx3BQAilzp/kc1t037fdbJyDbHX5ig4vmGDv2xBAFYk27fYvY5gl3204kuWglkFxSe54rulE3Fmb+tnVR7mFWztqseg9C/eoCgWA0+XDxEW9Lna2Csp3wzaLYBkVsnY/d270uvgs89I4iIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIAIiIALZBP4HRTHk94VrrIkAAAAASUVORK5CYII=" />
+                                                    </defs>
+                                                </svg>
+
+
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright d-flex justify-content-between pt-2">
+                    <p class="text-white fs-12 f-s-600 lh-183">© ২০২৪ | স্বত্ব সংরক্ষন : তাহযীব তামুদ্দুন বিভাগ,
+                        রাজারবাগ শরীফ, ঢাকা-বাংলাদেশ।</p>
+                    <p class="text-white fs-12 f-s-600 lh-183">Powerd by| <a href=""><span
+                                class="footer-curtecy">Pishrro Digital</span></a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- footer end  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
